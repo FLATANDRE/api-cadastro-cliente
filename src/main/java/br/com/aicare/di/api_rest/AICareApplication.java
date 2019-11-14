@@ -12,8 +12,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  *
  * @author Paulo Collares
  */
-@SpringBootApplication
-@EnableScheduling
+//SpringBootApplication
+//EnableScheduling
 public class AICareApplication {
 
     public static final String VERSAO = "1.0";

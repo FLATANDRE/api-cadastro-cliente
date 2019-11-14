@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <name>api_rest</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <name>api-cadastro-cliente</name>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>br.com.aicare.di.api_rest</groupId>
-    <artifactId>api_rest</artifactId>
-    <version>1.0</version>
+    <groupId>br.com.surittec.api_rest</groupId>
+    <artifactId>api-cadastro-cliente</artifactId>
+    <version>0.1</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,11 +19,11 @@
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
     </properties>
     
-    <parent> 
-        <groupId>org.springframework.boot</groupId> 
-        <artifactId>spring-boot-starter-parent</artifactId> 
-        <version>2.1.7.RELEASE</version>
-    </parent> 
+    <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.9.RELEASE</version>
+	</parent>
     <dependencies> 
         
         
@@ -104,11 +107,11 @@
         </dependency>
         
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-        </dependency>
-        
-        
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
     </dependencies>
     <build>
         <plugins>
