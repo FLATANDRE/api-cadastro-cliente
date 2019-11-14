@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}AICare DI - Artificial Intelligence Care (Dynamic Inventory)
+${licensePrefix}Todos os direitos reservados.
+<#if licenseLast??>
+${licenseLast}
+</#if>

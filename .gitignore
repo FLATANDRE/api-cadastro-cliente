@@ -1,0 +1,11 @@
+
+application.properties
+api-cadastro-cliente/target
+
+#Eclipse
+
+/.settings/*
+.project
+.classpath
+
+.vscode
